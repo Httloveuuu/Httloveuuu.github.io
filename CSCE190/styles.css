@@ -1,0 +1,50 @@
+body {
+    background:purple;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.assignments {
+    display:flex;
+    flex-wrap:wrap;
+}
+.assignment{
+    width:22%;
+    padding : 10px;
+    margin:10px;
+    padding: 20px 10px;
+    background: rgba(17, 177, 142, 0);
+    border-radius:5px；
+}
+
+.assignment img {
+    width:200px;
+    margin:10px;
+    border-radius:4px solid #FFF;
+    display:block;
+    margin:auto;
+}
+
+.assignment img:hover {
+    border:4px dashed rgb(187, 13, 13)
+}
+h1{
+    color: pink;
+    text-align: center;
+}
+
+h1:hover {
+     color:rgb(238, 12, 12)
+}
+
+h2 {
+    text-align:center;
+}
+
+a{
+    text-decoration:none;
+    color:#FFF;
+}
+
+a:hover{
+    color:rgb(64, 211, 96)
+}
